@@ -153,12 +153,10 @@ const Differentials = () => {
             Alto Padrão
           </span>
           <h2
-            className="text-[clamp(2.2rem,5vw,3.5rem)] font-medium leading-[1.1] tracking-tight max-w-3xl"
+            className="text-[clamp(1.8rem,4vw,3rem)] font-medium leading-[1.2] tracking-tight max-w-3xl"
             style={gradientTitle}
           >
-            Por que empresas de alto padrão{" "}
-            <br className="hidden md:block" />
-            escolhem o AvanceCRM?
+            Por que empresas de alto padrão escolhem o AvanceCRM?
           </h2>
         </div>
 
