@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="flex gap-6 text-text-dim font-light text-sm">
           <a href="#funcionalidades" className="hover:text-foreground transition-colors">Funcionalidades</a>
           <a href="#integrações" className="hover:text-foreground transition-colors">Integrações</a>
-          <a href="https://wa.me/" className="hover:text-foreground transition-colors">Fale Conosco</a>
+          <a href="https://wa.me/5575999777682?text=Olá%2C%20vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20o%20AvanceCRM!" className="hover:text-foreground transition-colors">Fale Conosco</a>
         </div>
 
         <p className="text-text-dim font-light text-xs">

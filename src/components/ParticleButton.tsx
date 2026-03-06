@@ -23,9 +23,8 @@ const ParticleButton = () => {
     >
       {/* Particles */}
       <div
-        className={`absolute w-[160%] h-[280%] pointer-events-none transition-opacity duration-500 z-[1] ${
-          hovered ? "opacity-0" : "opacity-100"
-        }`}
+        className={`absolute w-[160%] h-[280%] pointer-events-none transition-opacity duration-500 z-[1] ${hovered ? "opacity-0" : "opacity-100"
+          }`}
         style={{ top: "-90%", left: "-30%" }}
       >
         {particles.map((p, i) => (
@@ -49,7 +48,7 @@ const ParticleButton = () => {
 
       {/* Button wrapper */}
       <a
-        href="https://wa.me/"
+        href="https://wa.me/5575999777682?text=Olá%2C%20vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20o%20AvanceCRM!"
         target="_blank"
         rel="noopener noreferrer"
         className="relative z-[2] p-[2px] rounded-full bg-gradient-to-r from-primary to-accent-purple cursor-pointer transition-all duration-500 w-[330px] shadow-[var(--glow-shadow)] hover:scale-105 hover:-translate-y-1 hover:shadow-[var(--glow-shadow-hover)] group"

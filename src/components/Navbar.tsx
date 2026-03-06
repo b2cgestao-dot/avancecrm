@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-[9999] transition-all duration-500 px-6 md:px-10 ${scrolled
-          ? "h-[70px] glass border-b border-primary/20"
-          : "h-20 bg-transparent border-b border-transparent"
+        ? "h-[70px] glass border-b border-primary/20"
+        : "h-20 bg-transparent border-b border-transparent"
         }`}
     >
       <div className="max-w-[1300px] w-full mx-auto h-full flex items-center justify-between">
@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
 
         <a
-          href="https://wa.me/"
+          href="https://wa.me/5575999777682?text=Olá%2C%20vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20o%20AvanceCRM!"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex px-6 py-2.5 rounded-full text-sm font-bold bg-gradient-to-r from-primary to-accent-purple text-primary-foreground shadow-[var(--glow-shadow)] hover:shadow-[var(--glow-shadow-hover)] transition-all duration-300 hover:scale-105"
